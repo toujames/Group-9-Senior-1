@@ -13,5 +13,3 @@ This repository contains all the programs to make the robot work
 
 # Controller
 * [Arduino Uno R3](https://www.arduino.cc/en/Main/ArduinoBoardUno)
-* 
-
