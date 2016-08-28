@@ -1,6 +1,8 @@
 # Group-9-Senior-1
 
-This repository contains all the programs to make the robot work
+The project is to make an autonomous car that will follow a track.
+
+This repository contains all the programs needed to make the robot work.
 
 # Sensors
 * [Pixy](http://charmedlabs.com/default/pixy-cmucam5/) 
