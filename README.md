@@ -14,7 +14,7 @@ This repository contains all the programs needed to make the robot work.
 	
 # Motor
 * [Link](http://www.tomtop.com/motor-1209/p-rm3134.html)
-* Will use PWM as a control
+* Will use PWM as a controlling input
 
 # Controller
 * [Arduino Uno R3](https://www.arduino.cc/en/Main/ArduinoBoardUno)
