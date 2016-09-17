@@ -4,7 +4,7 @@ Servo myservo;
 
 void setSpeed(int speed){
   // speed is from 54 to 100, where 53 is off and 100 is maximum
-  // 54 speed is the slowest. Found form testing
+  // 54 speed is the slowest. Found from testing
   // the following maps speed values of 0-100 to angles from 0-180,
   int angle = map(speed, 0, 100, 0, 180);
 
@@ -15,7 +15,7 @@ void setSpeed(int speed){
 void arm(){
   // arm the speed controller, modify as necessary for your ESC 
   setSpeed(0); 
-  delay(2000); //delay 1 second, some speed controllers may need longer
+  delay(2000);
 }
 
 void setup()
