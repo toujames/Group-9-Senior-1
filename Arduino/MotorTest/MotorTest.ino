@@ -1,6 +1,7 @@
-#include <Servo.h> 
+#include <SoftwareServo.h>
 
-Servo myservo;
+//SoftwareServo myservo;
+SoftwareServo myservo;
 
 void setSpeed(int speed){
   // speed is from 54 to 100, where 53 is off and 100 is maximum
@@ -26,6 +27,14 @@ void setup()
 
 void loop()
 {
-  setSpeed(54); 
-  delay(5000); // stop the motor for 5 seconds
+   myservo.write(100);
+   
+//   setSpeed(54);
+
+/**  for (int i=0; i<37; i++)
+    {
+      setSpeed(i*5);
+      delay(800);
+    }
+**/  
 }
